@@ -1,0 +1,7 @@
+shutdown -r //restart
+shutdown -s //shutdown
+shutdown -l //logoff
+shutdown -a //abort previous shutdown command
+shutdown -t <number of seconds> //delayed shutdown/logoff/restart
+-f //forced
+-m //to execute on a remote machine
