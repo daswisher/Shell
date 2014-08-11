@@ -1,0 +1,23 @@
+#!/bin/bash
+
+#This shows basic math functions/operations
+
+#The "let" keyword allows for assignment of an expression into a variable
+
+let addition=30+10
+let subtraction=30-10
+let multiplication=30\*10
+let division=30/10
+
+echo $addition
+echo $subtraction
+echo $multiplication
+echo $division
+
+
+#The following lines demonstrate how to evaluate mathmatical expressions in the bash terminal outside of a script
+
+#expr 30 + 10 #This is addition
+#expr 30 - 10 #This is subtraction
+#expr 30 / 10 #This is division
+#expr 30 \* 10 #This is multiplication

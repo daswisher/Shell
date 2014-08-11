@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#This is a file that demonstrates how shell commands can be executed within a bash script
+
+
+ls -al

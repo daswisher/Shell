@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#This is a comment in Bash!!!
+
+echo "Hello world. This is Bash!"

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+variable="This is a string variable."
+echo $variable
+
+variable2=2
+echo "$variable2"
