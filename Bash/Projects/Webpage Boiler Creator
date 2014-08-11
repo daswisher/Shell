@@ -1,0 +1,15 @@
+#!/bin/bash
+
+mkdir html images css js
+cat << EOF > html/home.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+
+	<body>
+		This is an empty webpage with an empty site name.
+	</body>
+</html>
+EOF
