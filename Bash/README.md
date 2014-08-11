@@ -2,4 +2,5 @@ Bash
 ====
 
 Bash Scripts
-crrereattete sscscrscriscripscriptscript ttoto iininiinitinitiinitialize wwewebwebswebsiwebsitwebsitewebsite bboboiboilboileboilerboilerpboilerplate sseset
+
+Create script to initialize website boilerplate set
