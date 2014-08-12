@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#This file demonstrates how to use if statements within a bash script
+
+mynum=100
+
+#There needs to be a space in between the expression and the brackets
+if [ $mynum -eq 200 ]
+then 
+	echo "This is a conditional"
+else
+	echo "This is the else part of the conditional"
+fi

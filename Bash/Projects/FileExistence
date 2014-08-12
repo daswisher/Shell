@@ -1,0 +1,17 @@
+#!/bin/bash
+
+if [ -d ~/myfolder ]
+then
+	echo "Folder found."
+else
+	echo "Folder not found."
+fi
+
+if [ -f ~/myfile ]
+then
+	echo "File found."
+	#rm myfile
+else
+	echo "File not found."
+	#touch myfile
+fi
