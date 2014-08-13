@@ -1,0 +1,31 @@
+The purpose of this file is to show the different commands that can be provided to bash in terms of file navigation and system manipulation.
+
+>>>Navigation
+
+cd 
+
+>>>Listing
+ls -a -l (or -al)
+
+>>>Creation
+touch
+mkdir
+
+>>>Deletion
+rm (-r for folders with files in them)
+
+>>>Text editors
+vim
+nano
+
+>>>Output
+>> (append)
+> (output
+0> (redirect input)
+1> (redirect output)
+2> (redirect error output)
+
+>>>Print working directory
+pwd
+
+
