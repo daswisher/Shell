@@ -1,0 +1,4 @@
+total 1
+-rw-r--r--    1 Michael  Administ        0 Aug 12 18:00 Output.txt
+-rw-r--r--    1 Michael  Administ      212 Aug 12 17:59 Output2.txt
+-rwxr-xr-x    1 Michael  Administ      158 Aug 12 17:58 StandardIO

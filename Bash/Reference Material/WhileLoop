@@ -1,0 +1,11 @@
+#!/bin/bash
+
+numOfLoops=1
+
+while [ $numOfLoops -le 10 ] #-le means less than or equal to
+do
+	echo $numOfLoops
+	numOfLoops=$(( $numOfLoops + 1 ))
+	sleep 1 #Sleep is the same as delay
+		#Sleep can use values with decimals. Git doesn't like it though
+done

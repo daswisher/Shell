@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#It's possible to output data to an external file using standard output
+
+
+ls -l > Output.txt
+
+ls -l >>Output2.txt
+echo " ">>Output2.txt
+
+#It is possible to redirect values based upon their type to a file
+#0 is standard input
+#1 is standard output
+#2 is standard error output
+#Example:
+#ls /root 2> errors.txt
