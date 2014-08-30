@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#In order to use command line arguments that are expected, it's $<insert the index of the argument>
+#Indexing of the arguments begins at 1 because 0 is the file name
+
+echo "The $1 walks down $2 avenue."

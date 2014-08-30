@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#The purpose of this file is to demonstrate how to modify parts of a string
+#The way it's done is using ${string/substring/replacement}
+foo="This is a string"
+echo $foo
+
+#The // will select all of the following substrings in the string instead of just the first one
+#A single slash will cause the command to only replace the first substring it finds
+foo=${foo// /-}
+echo $foo
