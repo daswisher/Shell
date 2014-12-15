@@ -1,0 +1,19 @@
+---------
+External shell commands
+---------
+sudo mysql_secure_installation <<< Helps remove any testing values and test users
+
+sudo mysql -u root -p <<< Enter the mysql shell as root
+
+---------
+Internal shell commands
+---------
+SHOW DATABASES;
+select host, user, password from mysql.user; <<< Prints all users, their host, and hashed passwords
+USE <database name>; <<< Select database
+CREATE DATABASE <database name>; <<< Make a database
+CREATE USER 'username'@'localhost' IDENTIFIED BY 'somePassword';
+GRANT ALL PRIVILEGES ON * .* TO 'user'@'localhost'; <<< Gives user permissions on table
+SHOW TABLES;
+SELECT * FROM <table name>; <<< Print the table contents
+FLUSH PRIVILEGES; <<< Save changes
