@@ -5,3 +5,8 @@ shutdown -a //abort previous shutdown command
 shutdown -t <number of seconds> //delayed shutdown/logoff/restart
 -f //forced
 -m //to execute on a remote machine
+
+cd //Change directory
+dir //List contents of directory
+echo "some values here" > somefile.someExtension //Touch
+del //Delete file
