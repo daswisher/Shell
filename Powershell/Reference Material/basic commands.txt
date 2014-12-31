@@ -67,6 +67,14 @@ By default, powershell runs as a non-administer profile to add a mild level of p
 start-process powershell -verb runAs
 
 
+>>>Account Management
+Accounts can be changed or modified only at an administrator level. To change
+a password, issue the following:
+net user usernameHere * /saidUsersDomain
+Example: net user Administrator *
+Alternative...
+net user usernameHere newPasswordHere
+
 
 >>>BitLocker Management
 Windows comes with a drive encryption application called BitLocker. While it works well on drives/volumes (spanned volumes included), it does have some issues like the fact that it isn't possible to relock drives from the gui. There are a few commands that make using a cli to manage bitlocker over gui's though.
