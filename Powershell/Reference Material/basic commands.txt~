@@ -87,15 +87,3 @@ Unlocking a Volume:
 manage-bde -unlock <drive>: -password <<<This can only be done from an admin privilage and will prompt the user for the password after execution
 Example: manage-bde -lock C: -password
 thisIsAPassword
-
-
->>>System Repair<<<
-sfc /scannow <<<This scans systems drivers, verifies them, and repairs them
-
-Dism /Online /Cleanup-Image /RestoreHealth <<<Repairs Windows image
-corruptions non-destructively to the environment (won't uninstall programs)
-
-powershell -ExecutionPolicy Unrestricted Add-AppxPackage
--DisableDevelopmentMode -Register $Env:SystemRoot\WinStore\AppxManifest.XML
-<<<Fixes Windows Store configuration policies for corrupted Windows Store (use
-if dism or sfc don't work)
