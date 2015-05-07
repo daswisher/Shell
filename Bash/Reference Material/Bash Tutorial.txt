@@ -31,3 +31,4 @@ pwd
 >>>Environment variables
 TEST='hello world!' //Create a local variable called test and set it equal to the string within the single quotes
 export TEST	//Export the variable to set it as an environment variable
+printenv //Print all environment variables
