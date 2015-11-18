@@ -17,3 +17,20 @@ GRANT ALL PRIVILEGES ON * .* TO 'user'@'localhost'; <<< Gives user permissions o
 SHOW TABLES;
 SELECT * FROM <table name>; <<< Print the table contents
 FLUSH PRIVILEGES; <<< Save changes
+DESCRIBE <table name>; <<< Print the columns within the table
+	Alternatively:
+		SHOW COLUMNS FROM <table name>;
+
+
+CREATE TABLE <table name>( <<< this block is how you make a table in a DB
+	param1Name dataType,
+	param2Name dataType,
+	.
+	.
+	.
+	param(N)Name dataType
+);
+
+
+***Do not use "condition" for a name because it's a keyword and will result in errors***
+
