@@ -1,0 +1,7 @@
+nslookup <hostname> <<< Gives system network info of specified hostname
+
+Active Directory Commands (may require "Import-Module ActiveDirectory")
+Get-ADComputer -Filter * <<< Returns all fields of all computers registered in active directory
+
+Additional Reference:
+http://www.powershelladmin.com/wiki/Getting_computer_names_from_AD_using_Powershell
