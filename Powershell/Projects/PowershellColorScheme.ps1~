@@ -1,4 +1,0 @@
-$a = (Get-Host).UI.RawUI
-$a.ForegroundColor = "black"
-$a.BackgroundColor = "white"
-Clear-Host
